@@ -1,0 +1,12 @@
+ecosun:
+  module: geosun
+  class: Geosun
+  source: "ip address GEOSUN Eco One unit"
+  interval: 15
+  user: "Eco_One_unit_login_name"
+  password: "Eco_One_unit_login_password"
+  device_id: "EcoOne"
+  device_model: "Eco One HW"
+  device_name: "Eco"
+  device_manufacturer: "Geosun"
+  home_assistant_base_topic: "homeassistant"
