@@ -1,0 +1,22 @@
+appdaemon:
+  latitude: 52.379189
+  longitude: 4.999431
+  elevation: 2
+  time_zone: Europe/Prague
+  plugins:
+    HASS:
+      type: hass
+    MQTT:
+      type: mqtt
+      namespace: mqtt
+      client_id: appdaemon
+      client_host: 'ip address MQQT broker'
+      client_user: mqtt_user_name
+      client_password: mqtt_user_password
+      verbose: true
+      client_topics: []
+http:
+  url: http://127.0.0.1:5050
+admin:
+api:
+hadashboard:
