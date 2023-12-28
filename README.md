@@ -5,9 +5,9 @@ Doporučuji použit doplněk Mosquitto broker, standardně obsažený v obchodě
 Konfigurace doplňku muže být výchozí. Pro přihlášení k brokeru je vhodné vytvořit samostatný uživateslký účet v Nastavení - Osoby - Uživatelé
 ## AppDaemon
 Integrace je vytvořena jako aplikace v doplňku AppDaemon, standardně obsaženýv obchodě s doplňky Home Assistant.
-AppDeamon musí být nakonfigurován pro komunikaci s MQTT brokerem (Mosquitto) v souboru [appdaemon.yaml](AppDaemon/appdaemon.yaml)
-Konfigurační parametry integrační aplikace se nastavují v souboru apps.yaml
-Vlastní aplikaci včetně definice entit tvoří soubor geosun.py
+AppDeamon musí být nakonfigurován pro komunikaci s MQTT brokerem (Mosquitto) v souboru appdaemon.yaml [vzor](AppDaemon/appdaemon.yaml)
+Konfigurační parametry integrační aplikace se nastavují v souboru apps.yaml [vzor](AppDaemon/apps.yaml)
+Vlastní aplikaci včetně definice entit tvoří soubor geosun.py [vzor](AppDaemon/geosun.py)
 Aplikace po spuštění vytvoří v MQTT integraci nové zařízení s definovynými entitami a zajišťuje komunikaci s jednotkou Eco One a obousměrnou aktualizaci stavu entit. 
 ### Entity
 Do integrace je možné snadno přidat další entity.
