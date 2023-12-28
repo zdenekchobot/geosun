@@ -5,12 +5,12 @@ Doporučuji použít doplněk Mosquitto broker - standardně v obchodě s doplň
 Konfigurace doplňku může být výchozí. Pro přihlášení k brokeru je vhodné vytvořit samostatný uživateslký účet v Home Assistant - Nastavení - Osoby - Uživatelé
 ## AppDaemon
 Integrace je vytvořena jako aplikace v doplňku AppDaemon - standardně v obchodě s doplňky Home Assistant.
-AppDeamon musí být nakonfigurován pro komunikaci s MQTT brokerem (Mosquitto) v souboru appdaemon.yaml [vzor](AppDaemon/appdaemon.yaml)
-Konfigurační parametry integrační aplikace se nastavují v souboru apps.yaml [vzor](AppDaemon/apps/apps.yaml)
-Vlastní aplikaci včetně definice entit tvoří soubor geosun.py [vzor](AppDaemon/apps/geosun.py)
+AppDeamon musí být nakonfigurován pro komunikaci s MQTT brokerem (Mosquitto) v souboru appdaemon.yaml ([vzor](AppDaemon/appdaemon.yaml)).
+Konfigurační parametry integrační aplikace se nastavují v souboru apps.yaml ([vzor](AppDaemon/apps/apps.yaml)).
+Vlastní aplikaci včetně definice entit tvoří soubor geosun.py ([vzor](AppDaemon/apps/geosun.py)).
 Aplikace po spuštění vytvoří v MQTT integraci nové zařízení s definovynými entitami a zajišťuje komunikaci s jednotkou Eco One a obousměrnou aktualizaci stavu entit. 
 ### Entity
-Do integrace lze snadno přidat další entity doplněním proměnné **self.entities** na konci souboru [geosun.py](AppDaemon/apps/geosun.py
+Do integrace lze snadno přidat další entity doplněním proměnné **self.entities** na konci souboru ([geosun.py](AppDaemon/apps/geosun.py)).
 Aktuálně jsou podporovány entity typu sensor, binary sensor, switch, number, text.
 Názvy proměnných (obvykle začínají __) lze ve webovém prostředí jednotky Eco One vyčíst ze zdrojového kód přislušné XML stránky (Ctrl + U v prohlížečích Chrome, Edge)     
 
