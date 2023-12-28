@@ -1,8 +1,8 @@
-ecosun:
+ ecosun:
   module: geosun
   class: Geosun
   source: "ip address GEOSUN Eco One unit"
-  interval: 15
+  interval: 15   #update interval, min 15 sec
   user: "Eco_One_unit_login_name"
   password: "Eco_One_unit_login_password"
   device_id: "EcoOne"
