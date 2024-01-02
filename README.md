@@ -15,6 +15,6 @@ Aktuálně jsou podporovány entity typu sensor, binary sensor, switch, number, 
 Názvy proměnných (obvykle začínají __) lze ve webovém prostředí jednotky Eco One vyčíst ze zdrojového kód přislušné XML stránky (Ctrl + U v prohlížečích Chrome, Edge)     
 
 _Tipy:_
-- AppDaemon restaruje aplikaci při každé změně souborů yaml a py. Pozor při úpravách entit !!
+- AppDaemon se restartuje aplikaci při každé změně souborů yaml a py. Pozor při úpravách entit !!
 - Pro editaci souborů lze vhodně využit doplněk Studio Code Server, standardně obsaženýv obchodě s doplňky Home Assistant. Ukládá soubor automaticky při každé změně obsahu (viz. předchozí bod)!
 
