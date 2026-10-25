@@ -1,4 +1,5 @@
 # Integrace tepelného čerpadla MITSUBISHI a jednotky GEOSUN Eco One do Home Assistant
+***ZASTARALÉ !*** Nahrazeno [nativní integrací pro Home Assistant](https://github.com/zdenekchobot/geosun-eco-one) 
 ## MQTT
 Integrace využívá MQTT pro vytváření a aktualizaci zařízení a entit. K tomu potřebuje MQTT broker. 
 Doporučuji použít doplněk Mosquitto broker - standardně v obchodě s doplňky Home Assistant.
